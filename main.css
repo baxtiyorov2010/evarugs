@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.header-list {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.main-wrapper {
+    transition: ease 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.main-item {
+    transition: ease 0.2s;
+
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 58.59px;
+
+}
+
+.btn {
+    transition: ease 0.2s;
+
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    color: #fff;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 900;
+    width: 179px;
+    border: transparent;
+    border-radius: 7px;
+}
+
+.main-left {
+    transition: ease 0.2s;
+
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.img-1 {
+    display: block;
+}
+
+.img-2 {
+    display: none;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.eva {
+    background: -webkit-linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.child {
+    width: 344px;
+    height: 414px;
+    border-radius: 9px;
+    background-color: whitesmoke;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+.rasm1{
+    display: block;
+}
+
+.rasm2{
+    display: none;
+}
+
+.child p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 20px;
+    color: #767676;
+    margin-top: 5px;
+    width: 289px;
+}
+
+.child img{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.footer__wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p{
+    font-weight: 300;
+    margin-top: 5px;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+h4{
+    font-size: 14px;
+    margin-bottom: 9px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .header-list {
+        display: none;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .img-2 {
+        display: block;
+    }
+
+    .rasm1{
+        display: none;
+    }
+
+    .rasm2{
+        display: block;
+    }
+
+    .child{
+        width: 594px;
+        height: 318px;
+    }
+
+    .child p{
+        width: 499.03px ;
+    }
+
+
+    .parent{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media screen and (max-width: 330px) {
+    .header-list {
+        display: none;
+    }
+
+    nav {
+        transition: ease 0.2s;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .img-2 {
+        transition: ease 0.2s;
+
+        display: none;
+    }
+
+    .main-item {
+        transition: ease 0.2s;
+
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.2;
+        margin-top: 42px;
+    }
+
+    .btn {
+        transition: ease 0.2s;
+
+        background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+        color: #fff;
+        padding: 9px 0;
+        font-size: 15px;
+        font-weight: 900;
+        width: 95px;
+        border: transparent;
+        border-radius: 7px;
+        margin: 0 auto;
+    }
+
+    .rasm2{
+        display: none;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .rasm1{
+        display: block;
+        width: 100%;
+    }
+
+    .child p{
+        width: 221.79px;
+    }
+
+    .child{
+        width: 264px;
+        height: 374px;
+    }
+
+    .parent{
+        display: flex;
+        justify-self: center;
+    }
+
+    .footer__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .tomon{
+        text-align: center;
+    }
+
+}
